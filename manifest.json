@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Party Parrot Party Time",
+  "description": "Activiates Maximum Party",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "parrot.png",
+    "default_title": "Activiate Maximum Party"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["partyTime.js"],
+    "persistent": false
+  },  
+  "web_accessible_resources": ["parrots/*"]
+}
